@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">HeroCards1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stats_string_wounds">Wounds</string>
+    <string name="stats_string_range">Range</string>
+    <string name="stats_string_damage">Damage</string>
+    <string name="new_character_title">Create a New Character</string>
+    <string name="new_character_name">Name</string>
+    <string name="new_character_rank">Rank</string>
+    <string name="new_character_wounds">Wounds</string>
+    <string name="new_character_range">Attack Range</string>
+    <string name="new_character_damage">Damage</string>
+    <string name="new_character_attacks">Attacks</string>
+    <string name="new_character_speed">Speed</string>
+    <string name="new_character_defence">Defence</string>
+    <string name="new_character_input_placeholder">insert value</string>
+    <string name="new_character_name_hint">Erik The Miniscule</string>
+    <string name="new_character_rank_hint">Leader</string>
+    <string name="new_character_wounds_hint">5</string>
+    <string name="new_character_range_hint">1</string>
+    <string name="new_character_damage_hint">3</string>
+    <string name="new_character_attacks_hint">2</string>
+    <string name="new_character_speed_hint">3</string>
+    <string name="new_character_defence_hint">2</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_home">Home</string>
+    <string name="button_create">Create</string>
+    <string name="button_new_character">New Character</string>
+    <string name="button_characters">Characters</string>
+    <string name="fragment_main_title">HeroCards</string>
+    <string name="fragment_main_welcome">Welcome To</string>
+    <string name="button_factions">Factions</string>
+    <string name="button_new_faction">New Faction</string>
+    <string name="edit_character_title">Edit Character</string>
+    <string name="edit_character_name">Name</string>
+    <string name="edit_character_rank">Rank</string>
+    <string name="edit_character_wounds">Wounds</string>
+    <string name="edit_character_range">Attack Range</string>
+    <string name="edit_character_damage">Damage</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_save">Save</string>
+</resources>

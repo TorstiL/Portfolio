@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.herocards1.MainFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_fragmentCharacterModel"
+            app:destination="@id/fragmentCharacterModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNewCharacter"
+        android:name="com.example.herocards1.FragmentNewCharacter"
+        android:label="fragment_new_character"
+        tools:layout="@layout/fragment_new_character" >
+        <action
+            android:id="@+id/action_fragmentNewCharacter_to_fragmentCharacterStats"
+            app:destination="@id/fragmentCharacterStats" />
+        <action
+            android:id="@+id/action_fragmentNewCharacter_to_fragmentCharacterModel"
+            app:destination="@id/fragmentCharacterModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCharacterModel"
+        android:name="com.example.herocards1.FragmentCharacterList"
+        android:label="fragment_character_model_list"
+        tools:layout="@layout/fragment_character_model_list" >
+        <action
+            android:id="@+id/action_fragmentCharacterModel_to_fragmentCharacterStats"
+            app:destination="@id/fragmentCharacterStats" />
+        <action
+            android:id="@+id/action_fragmentCharacterModel_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_fragmentCharacterModel_to_fragmentNewCharacter"
+            app:destination="@id/fragmentNewCharacter" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCharacterStats"
+        android:name="com.example.herocards1.FragmentCharacterStats"
+        android:label="fragment_character_stats"
+        tools:layout="@layout/fragment_character_stats" >
+        <action
+            android:id="@+id/action_fragmentCharacterStats_to_fragmentCharacterModel"
+            app:destination="@id/fragmentCharacterModel" />
+        <action
+            android:id="@+id/action_fragmentCharacterStats_to_fragmentEditCharacter"
+            app:destination="@id/fragmentEditCharacter" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEditCharacter"
+        android:name="com.example.herocards1.FragmentEditCharacter"
+        android:label="fragment_edit_character"
+        tools:layout="@layout/fragment_edit_character" >
+        <action
+            android:id="@+id/action_fragmentEditCharacter_to_fragmentCharacterModel"
+            app:destination="@id/fragmentCharacterModel" />
+        <action
+            android:id="@+id/action_fragmentEditCharacter_to_fragmentCharacterStats"
+            app:destination="@id/fragmentCharacterStats" />
+    </fragment>
+</navigation>
